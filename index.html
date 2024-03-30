@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>404</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Details-icons.css">
+</head>
+
+<body style="background: var(--bs-highlight-bg);">
+    <section class="py-4 py-xl-5">
+        <section class="py-4 py-xl-5">
+            <div class="container h-100">
+                <div class="text-white bg-primary border rounded border-0 p-4 py-5" style="background: rgb(37,198,150);--bs-primary: #245b51;--bs-primary-rgb: 36,91,81;">
+                    <div class="row h-100">
+                        <div class="col"><img class="bounce animated" width="360" height="263" src="assets/img/trabajando.jpg"></div>
+                        <div class="col-sm-4 col-md-6 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                            <div>
+                                <h1 class="text-uppercase fw-bold bounce animated mb-3" style="padding-bottom: 0px;padding-left: 0px;padding-right: 16px;margin-bottom: 33px;margin-left: 15px;margin-right: 2px;padding-top: 0px;margin-top: 16px;"><span style="color: rgb(174, 26, 26);">404</span></h1>
+                                <p class="font-monospace fs-3 text-center wobble animated mb-4" data-bs-toggle="tooltip" data-bss-tooltip="" style="color: rgb(169,205,26);" title="Trabajando"><strong><em><span style="color: rgb(186, 231, 8);">Estamos Trabajando gracias por su visita</span></em></strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h1>Heading</h1>
+                        <nav id="menu">
+                            <ul>
+                                <li><a href="#">Seccion 1</a></li>
+                                <li><a href="#">Seccion 2</a></li>
+                                <li><a href="#">Seccion 3</a></li>
+                                <li><a href="#">Seccion 4</a></li>
+                                <li><a href="#">Seccion 5</a></li>
+                            </ul>
+                        </nav>
+                        <input type="text" name="nombre" placeholder="nombre">
+                        <section class="cards">
+                            <figure class="card">
+                                <img src="https://picsum.photos/640/360" alt="picsum">
+                                <figcaption>picsum</figcaption>
+                            </figure>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script>
+    window.alert(document.head);
+   
+    console.log(document.images);
+    console.log(document.styleSheets)
+    
+    setTimeout(()=>{
+        console.log(document.getSelection().toString());},3000);
+        
+    let texto= "Estamos Trabajando Gracias por su visita"
+    const hablar = (texto)=> speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
+    hablar(texto);
+    </script>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/startup-modern.js"></script>
+    
+</body>
+
+</html>
